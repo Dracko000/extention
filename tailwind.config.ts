@@ -7,12 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#050505",
-        surface: "#121212",
-        primary: "#6366F1",
-        secondary: "#8B5CF6",
-        cyan: "#06B6D4",
-        muted: "#A1A1AA",
+        background: "#0B0E11",
+        surface: "#181A20",
+        primary: "#3B82F6",
+        vampire: "#F84960",
+        success: "#00C087",
+        muted: "#848E9C",
+        border: "#2B2F36",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        mono: ["JetBrains Mono", "monospace"],
       },
     },
   },
